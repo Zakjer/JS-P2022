@@ -1,0 +1,1 @@
+# Funkcja "_" jest używana do przechowywania ostatniego wyniku działania 
