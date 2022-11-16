@@ -1,4 +1,3 @@
-
 lista = ["Kasia", "Basia", "Marek", "Darek"]
 lista.append("Józek")
 lista.extend(["Ania", "Basia"]) 

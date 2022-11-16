@@ -5,7 +5,7 @@ lista = []
 for z in range(1,21):
     lista.append(str(x))
 
-b = a.join(lista)
+b = a.join(lista) 
 print(b) 
 
 
