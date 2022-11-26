@@ -5,6 +5,6 @@ def ciąg():
     b = a * ((q)**(n - 1))
     print(b)
 
-ciąg()     
+  
 
     

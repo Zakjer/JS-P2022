@@ -1,6 +1,9 @@
-lista = [1, 3, 2]
-for x in lista:
-    print(x)
-    for y in lista:
-        print
+from itertools import permutations
+lista = [1, 3, 2, 4]
+x = permutations(lista)
+for i in x:
+    print (i) 
+
+
+            
         
