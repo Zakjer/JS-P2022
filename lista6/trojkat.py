@@ -21,3 +21,4 @@ def kąty(a,b,c):
         return("Trójkat jest ostrokątny")
     else:
         return("Trójkąt jest rozwartokątny")
+        

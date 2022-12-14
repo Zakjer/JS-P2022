@@ -1,5 +1,4 @@
 def szyfrowanie(x):
-    import sys
     lista = []
     lista2 = []
     for i in x:
@@ -13,10 +12,9 @@ def szyfrowanie(x):
             lista.append(ord(i))    
     for y in lista:
         lista2.append(chr(y))
-    return lista2    
+    return "".join(lista2)  
 
 def deszyfrowanie(x):
-    import sys
     lista = []
     lista2 = []
     for i in x:
@@ -30,5 +28,5 @@ def deszyfrowanie(x):
             lista.append(ord(i))    
     for y in lista:
         lista2.append(chr(y))
-    return lista2    
+    return "".join(lista2)    
         
